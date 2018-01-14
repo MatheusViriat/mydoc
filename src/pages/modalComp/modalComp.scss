@@ -1,0 +1,16 @@
+.content_comp {
+	text-align: center;
+}
+
+.logo_comp {
+	margin-right: 100px;
+	margin-top: 30px;
+}
+
+.logo_comp:nth-child(2n){
+	margin-right: 0px;
+}
+
+// .logo_comp:last-child {
+// 	margin-left: 35%;
+// }

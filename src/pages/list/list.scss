@@ -1,3 +1,57 @@
 page-list {
 
 }
+
+.title_doc {
+	margin-top: 20px;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.date_doc {
+	margin-left: 10px;
+	color: #fff;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.content_doc {
+	display: block;
+	vertical-align: top;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10px;
+	color: #fff;
+	max-width: 40ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.compartilhar {
+	text-align: center;
+}
+
+.btn_opc {
+	color: #fff;
+	width: 70px;
+	padding-top: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fff;
+	background-color: transparent;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	position: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 13px;
+	margin: 5px;
+}

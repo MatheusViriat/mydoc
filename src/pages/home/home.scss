@@ -1,3 +1,88 @@
 page-home {
+	background-color: #000;
+}
 
+.item-md {
+	background-color: transparent;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.toolbar-title-md {
+	color: #410084;
+}
+
+.toolbar-background {
+	background-color: #fff;
+}
+
+.bar-button-default-md {
+	color: #410084;
+}
+
+.scroll-content {
+	background-image: url("../assets/imgs/backgroundcolor.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.home_intro {
+	margin-top: 60px;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.home_intro_bg {
+	margin-top: 60px;
+	font-size: 35px;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btns_home {
+	text-align: center;
+	color: #fff;
+}
+
+.btn_home {
+	color: #fff;
+	width: 130px;
+	padding-top: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fff;
+	background-color: transparent;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	position: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 13px;
+	margin: 5px;
+	margin-top:60px;
+}
+
+.btn_home_center {
+	color: #fff;
+	width: 130px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fff;
+	background-color: transparent;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	position: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size : 13px;
 }

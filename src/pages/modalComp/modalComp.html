@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button ion-button (click)="dismiss()">
+        <span ion-text color="primary" showWhen="ios">Cancelar</span>
+        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="content_comp">
+    <img class="logo_comp" src="assets/imgs/logo_facebook.png" (click)="compartilharViaFacebook()">
+    <img class="logo_comp" src="assets/imgs/logo_twitter.png" (click)="compartilharViaTwitter()">
+    <img class="logo_comp" src="assets/imgs/logo_whatsapp.png" (click)="compartilharViaWhats()">
+    <img class="logo_comp" src="assets/imgs/logo_skype.png" (click)="compartilharViaSkype()">
+<!--     <img class="logo_comp" src="assets/imgs/logo_evernot.png" (click)="teste()"> -->
+    <img class="logo_comp" src="assets/imgs/logo_email.png" (click)="compartilharViaEmail()">
+   <!--  <img class="logo_comp" src="assets/imgs/logo_drive.png">
+    <img class="logo_comp" src="assets/imgs/logo_dropbox.png"> -->
+    <img class="logo_comp" src="assets/imgs/logo_googleplus.png" (click)="compartilharViaGooglePlus()">
+  </div>
+</ion-content>
