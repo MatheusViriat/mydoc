@@ -33,16 +33,16 @@ export class HomePage {
      // add your config here
      // for the sake of this example we will just use the test config
      isTesting: true,
-     autoShow: true
+     autoShow: true,
+     bannerAtTop: true
     };
     this.admobFree.banner.config(bannerConfig);
 
     this.admobFree.banner.prepare()
-      .then(() => {
-        // banner Ad is ready
-        // if we set autoShow to false, then we will need to call the show method here
+      .then((result) => {
+        console.log(result);
       })
-      .catch(e => console.log(e));
+      .catch(e => console.log("teste" + e));
   }
 
   callTutorial() {
